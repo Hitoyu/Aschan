@@ -177,6 +177,7 @@ public class aschan extends JavaPlugin implements Listener {
 	}
 	
 	void broadcastLoop(int interval) {
+		cancelLoop();
 		Bukkit.getScheduler().scheduleSyncRepeatingTask(this,new Runnable() {
 			public void run() {
 				final String message = announcements.get(number);

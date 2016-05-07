@@ -89,8 +89,8 @@ class command implements CommandExecutor {
 			int num = -1;
 			try {
 				num = Integer.parseInt(args[1]);
-				if(num >= aschan.announcements.size() - 1) {
-					num = aschan.announcements.size() - 1;
+				if(num >= aschan.announcements.size()) {
+					num = aschan.announcements.size();
 				} else if (num < 1) {
 					num = 1;
 				}
