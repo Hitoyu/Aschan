@@ -1,0 +1,18 @@
+main: me.hitoyu.aschan.aschan
+description: ${project.description}
+version: ${project.version}
+name: ${project.name}
+author: Hitoyu5
+depend: [HitoCore]
+softdepend: [ANT]
+commands:
+  aschan:
+    description: main plugin command
+    default: op
+permissions:
+  aschan.use:
+    description: Allows usage of main command
+  aschan.setdebug:
+    description: Allows use of /aschan debug <level>
+  aschan.broadcast:
+    description: Allows use of /aschan broadcast <index>

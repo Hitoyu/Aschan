@@ -1,0 +1,9 @@
+# Aschan ${project.version} config
+random: false
+announcements: 
+- This is an announcement
+- This is another announcement
+language: english
+prefix: "&d[Server] &9"
+interval: 1
+debug: 0
